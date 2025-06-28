@@ -25,6 +25,7 @@ router.post(
 )
 router.put(
   '/voluntario',
+  limiter,
   // token.verify,
   voluntario.put,
 )
